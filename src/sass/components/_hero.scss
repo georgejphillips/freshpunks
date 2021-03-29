@@ -1,0 +1,35 @@
+.fresh-hero {
+  height: 40vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  color: $colour-white;
+
+  &--homepage {
+    height: 100vh;
+    position: absolute;
+  }
+
+  h2 {
+    position: absolute;
+    z-index: $hero-z-index;
+    left: 50%;
+    bottom: $spacing;
+    transform: translateX(-50%);
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .fresh-hero {
+    h2 {
+      bottom: auto;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

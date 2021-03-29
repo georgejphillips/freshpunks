@@ -1,0 +1,20 @@
+.fresh-nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    margin: 0 0 $spacing $spacing;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .fresh-nav {
+    li {
+      margin: 0 0 0 $spacing;
+    }
+  }
+}

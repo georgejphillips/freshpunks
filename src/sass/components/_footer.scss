@@ -1,0 +1,14 @@
+.fresh-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: $spacing 0;
+  color: $colour-white;
+  background-color: rgba($colour-dark-blue, .3);
+
+  p {
+    font-size: $font-size-sm;
+    margin: 0;
+  }
+}

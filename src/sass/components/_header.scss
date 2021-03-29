@@ -1,0 +1,9 @@
+.fresh-header {
+  position: absolute;
+  z-index: $header-z-index;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: $spacing 0;
+  color: $colour-white;
+}
