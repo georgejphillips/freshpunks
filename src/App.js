@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './components/Logo';
 import Home from './components/Home';
 import Music from './components/Music';
+import Video from './components/Video';
 import News from './components/News';
+import Podcast from './components/Podcast';
 import About from './components/About';
 import Tour from './components/Tour';
 import Press from './components/Press';
@@ -33,6 +35,9 @@ class App extends React.Component {
                         <Link to="/music">Music</Link>
                       </li>
                       <li>
+                        <Link to="/video">Video</Link>
+                      </li>
+                      <li>
                         <Link to="/news">News</Link>
                       </li>
                       <li>
@@ -43,6 +48,9 @@ class App extends React.Component {
                       </li>
                       <li>
                         <Link to="/press">EPK</Link>
+                      </li>
+                      <li>
+                        <Link to="/podcast">Podcast</Link>
                       </li>
                       <li>
                         <Link to="/contact">Contact</Link>
@@ -61,6 +69,9 @@ class App extends React.Component {
               <Route path="/music">
                 <Music />
               </Route>
+              <Route path="/video">
+                <Video />
+              </Route>
               <Route path="/news">
                 <News />
               </Route>
@@ -72,6 +83,9 @@ class App extends React.Component {
               </Route>
               <Route path="/press">
                 <Press />
+              </Route>
+              <Route path="/podcast">
+                <Podcast />
               </Route>
               <Route path="/contact">
                 <Contact />

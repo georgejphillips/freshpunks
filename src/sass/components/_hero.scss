@@ -1,5 +1,6 @@
 .fresh-hero {
-  height: 40vh;
+  height: 45vh;
+  width: 100%;
   overflow: hidden;
   display: flex;
   position: relative;
@@ -18,9 +19,10 @@
     transform: translateX(-50%);
   }
 
-  img {
+  > img {
     object-fit: cover;
     width: 100%;
+    margin: 0;
   }
 }
 

@@ -15,10 +15,11 @@ class News extends React.Component {
             <div className="row">
               <div className="col-md-8">
                 <h3>Girl Clout released!</h3>
-                <p class="meta">
+                <p className="meta">
                   By Fresh <time>28/03/21</time>
                 </p>
-                <p>Here's some news</p>
+                <p>We've put out a new song called Girl Clout and you can find it wherever you find your music!</p>
+                <p>Stay tuned for more...</p>
               </div>
             </div>
           </div>
@@ -27,11 +28,12 @@ class News extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8">
-                <h3>EP released!</h3>
-                <p class="meta">
+                <h3>Podcast released!</h3>
+                <p className="meta">
                   By Fresh <time>28/03/21</time>
                 </p>
-                <p>Here's some news</p>
+                <p>We got bored and decided to make a podcast. Check it out over on the <a href="/podcast">podcast page</a>!</p>
+                <p>Stay tuned for more...</p>
               </div>
             </div>
           </div>

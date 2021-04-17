@@ -1,0 +1,13 @@
+.fresh-music {
+  .fresh-section img {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .fresh-music {
+    .fresh-section img {
+      margin-bottom: 0;
+    }
+  }
+}

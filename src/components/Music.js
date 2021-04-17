@@ -4,11 +4,13 @@ import heroImage from '../assets/img/heros/music.jpg';
 import withdraw from '../assets/img/music/withdraw.jpg';
 import st from '../assets/img/music/st.jpg';
 import daytime from '../assets/img/music/daytime.jpg';
+import thantf from '../assets/img/music/thantf.jpg';
+import gc from '../assets/img/music/gc.jpg';
 
 class Music extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fresh-music">
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>Music</h2>
@@ -16,7 +18,7 @@ class Music extends React.Component {
         <div className="fresh-section">
           <div className="container">
             <div className="row">
-              <div class="col-12">
+              <div className="col-12">
                 <h3>Albums</h3>
               </div>
             </div>
@@ -25,19 +27,37 @@ class Music extends React.Component {
         <div className="fresh-section">
           <div className="container">
             <div className="row">
-              <div class="col-12">
+              <div className="col-12">
                 <h4>Withdraw</h4>
                 <p>Released 2019 - Specialist Subject Records</p>
+                <p>Pressing info: Vinyl, CD, Digital, Cassette
+                  <ul>
+                    <li>Vinyl 1st pressing - 150 yellow/green split, 350 solid yellow</li>
+                    <li>Vinyl 2nd pressing - 300 cherry cola</li>
+                  </ul>
+                </p>
                 <h5>Links</h5>
                 <ul>
-                  <li>Spotify</li>
-                  <li>Bandcamp</li>
+                  <li>
+                    <a href="https://open.spotify.com/album/1XR2HNYHuzaCBbBUSxuw8e?si=03bSCDVASeKvZwlYK5ncuw">
+                      Spotify
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/album/withdraw"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
                 </ul>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <img src={withdraw} width="100%" alt="Withdraw album artwork" />
               </div>
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <ol>
                   <li>Withdraw</li>
                   <li>Nervous Energy</li>
@@ -59,19 +79,38 @@ class Music extends React.Component {
         <div className="fresh-section">
           <div className="container">
             <div className="row">
-              <div class="col-12">
+              <div className="col-12">
                 <h4>Fresh</h4>
                 <p>Released 2017 - Specialist Subject Records</p>
+                <p>
+                  Pressing info: Vinyl, CD, Digital, Cassette
+                  <ul>
+                    <li>Vinyl 1st pressing - 150 clear blue, 350 solid pink</li>
+                    <li>Vinyl 2nd pressing - 300 clear w/ yellow splatter</li>
+                  </ul>
+                </p>
                 <h5>Links</h5>
                 <ul>
-                  <li>Spotify</li>
-                  <li>Bandcamp</li>
+                  <li>
+                    <a href="https://open.spotify.com/album/5usHg1RVKQr7Lhr8VVVLD5?si=zlMY9LjgRqmlH15XQmCnwA">
+                      Spotify
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/album/fresh"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
                 </ul>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <img src={st} width="100%" alt="Fresh album artwork" />
               </div>
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <ol>
                   <li>Short Hair, Don't Care</li>
                   <li>Get Bent</li>
@@ -92,36 +131,119 @@ class Music extends React.Component {
         <div className="fresh-section">
           <div className="container">
             <div className="row">
-              <div class="col-12">
+              <div className="col-12">
                 <h3>Singles & EPs</h3>
               </div>
             </div>
           </div>
-          <div className="fresh-section">
-            <div className="container">
-              <div className="row">
-                <div class="col-12">
-                  <h4>Daytime/Nighttime</h4>
-                  <p>Released 2018 - Specialist Subject Records</p>
-                  <h5>Links</h5>
+        </div>
+        <div className="fresh-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h4>Daytime/Nighttime</h4>
+                <p>Released 2018 - Specialist Subject Records</p>
+                <p>
+                  Pressing info: 7” Vinyl, Digital
                   <ul>
-                    <li>Spotify</li>
-                    <li>Bandcamp</li>
+                    <li>Vinyl 1st pressing 300 mixed colour</li>
                   </ul>
-                </div>
-                <div class="col-md-4">
-                  <img
-                    src={daytime}
-                    width="100%"
-                    alt="Nightime single artwork"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <ol>
-                    <li>Daytime</li>
-                    <li>Nightime</li>
-                  </ol>
-                </div>
+                </p>
+                <h5>Links</h5>
+                <ul>
+                  <li>
+                    <a href="https://open.spotify.com/album/5ZlFbKdcEz3B8dz1i8x65B?si=9oN-l9tDQ06BrwnkOKNuJQ">
+                      Spotify
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/track/daytime"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <img src={daytime} width="100%" alt="Nightime single artwork" />
+              </div>
+              <div className="col-md-6">
+                <ol>
+                  <li>Daytime</li>
+                  <li>Nightime</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fresh-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h4>These Things Are Not That Fun</h4>
+                <p>Self Released 2015</p>
+                <p>Pressing info: Digital, cassette</p>
+                <h5>Links</h5>
+                <ul>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/album/these-things-are-not-that-fun"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <img src={thantf} width="100%" alt="Nightime single artwork" />
+              </div>
+              <div className="col-md-6">
+                <ol>
+                  <li>The Woods</li>
+                  <li>Passing</li>
+                  <li>On Edge</li>
+                  <li>House Phone</li>
+                  <li>Cinema Woes</li>
+                  <li>Derailed (Joyce Manor Cover)</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fresh-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h4>Gewingchum</h4>
+                <p>Self Released - 2015</p>
+                <p>Pressing info: Digital, cassette</p>
+                <h5>Links</h5>
+                <ul>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/album/gewingchum"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <img src={gc} width="100%" alt="Nightime single artwork" />
+              </div>
+              <div className="col-md-6">
+                <ol>
+                  <li>Get Bent</li>
+                  <li>Cinema Woes</li>
+                  <li>Eating Paper</li>
+                </ol>
               </div>
             </div>
           </div>

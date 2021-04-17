@@ -7,6 +7,16 @@
   color: $colour-white;
   background-color: rgba($colour-dark-blue, .3);
 
+  .icon {
+    margin: 0 .5rem;
+    transition: opacity .4s ease-in-out;
+    opacity: .8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   p {
     font-size: $font-size-sm;
     margin: 0;

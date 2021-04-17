@@ -3,10 +3,7 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-}
-
-.video-responsive + .video-responsive {
-  margin-top: $spacing;
+  margin-bottom: 1.5rem;
 }
 
 .video-responsive iframe {

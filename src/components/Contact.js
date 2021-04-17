@@ -1,7 +1,6 @@
 import React from 'react';
 
 import heroImage from '../assets/img/heros/contact.jpg';
-
 class Contact extends React.Component {
   render() {
     return (
