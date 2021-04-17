@@ -83,7 +83,7 @@ class Tour extends React.Component {
                       <li>27/07/19 - Indietracks Festival, Derbyshire</li>
                       <li>28/08/19 - Heaven, London w/ The Beths</li>
                       <li>
-                        27/09/19 - Crowley’s Bar, Hastings - Wotsitcalled Fest
+                        27/09/19 - Crowley's Bar, Hastings - Wotsitcalled Fest
                       </li>
                       <li>28/09/19 - Empire Bar - BSM Big Day Out</li>
                       <li>
@@ -144,7 +144,7 @@ class Tour extends React.Component {
                       <li>17/05/18 - Wurlitzer Ballroom, Madrid</li>
                       <li>21/05/18 - Wharf Chambers, Leeds</li>
                       <li>22/05/18 - Bar Bloc, Glasgow</li>
-                      <li>23/05/18 - Henry’s Cellar Bar, Edinburgh</li>
+                      <li>23/05/18 - Henry's Cellar Bar, Edinburgh</li>
                       <li>24/05/18 - Empty Shop, Durham</li>
                       <li>06/06/18 - Birds Nest, London</li>
                       <li>22/06/18 - Lexington, London</li>
@@ -248,7 +248,7 @@ class Tour extends React.Component {
                       <li>14/09/16 - Veg Bar, London</li>
                       <li>16/09/16 - Cornerhouse, Cambridge</li>
                       <li>17/09/16 - Birthdays, London</li>
-                      <li>18/09/16 - Santiago’s, Leeds</li>
+                      <li>18/09/16 - Santiago's, Leeds</li>
                       <li>27/09/16 - Sussex Uni SU Bar, Brighton</li>
                       <li>07/10/16 - Veg Bar, London</li>
                       <li>22/10/16 - 1in12, Bradford</li>

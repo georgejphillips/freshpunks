@@ -30,12 +30,14 @@ class Music extends React.Component {
               <div className="col-12">
                 <h4>Withdraw</h4>
                 <p>Released 2019 - Specialist Subject Records</p>
-                <p>Pressing info: Vinyl, CD, Digital, Cassette
-                  <ul>
-                    <li>Vinyl 1st pressing - 150 yellow/green split, 350 solid yellow</li>
-                    <li>Vinyl 2nd pressing - 300 cherry cola</li>
-                  </ul>
-                </p>
+                <p>Pressing info: Vinyl, CD, Digital, Cassette</p>
+                <ul>
+                  <li>
+                    Vinyl 1st pressing - 150 yellow/green split, 350 solid
+                    yellow
+                  </li>
+                  <li>Vinyl 2nd pressing - 300 cherry cola</li>
+                </ul>
                 <h5>Links</h5>
                 <ul>
                   <li>
@@ -82,13 +84,11 @@ class Music extends React.Component {
               <div className="col-12">
                 <h4>Fresh</h4>
                 <p>Released 2017 - Specialist Subject Records</p>
-                <p>
-                  Pressing info: Vinyl, CD, Digital, Cassette
-                  <ul>
-                    <li>Vinyl 1st pressing - 150 clear blue, 350 solid pink</li>
-                    <li>Vinyl 2nd pressing - 300 clear w/ yellow splatter</li>
-                  </ul>
-                </p>
+                <p>Pressing info: Vinyl, CD, Digital, Cassette</p>
+                <ul>
+                  <li>Vinyl 1st pressing - 150 clear blue, 350 solid pink</li>
+                  <li>Vinyl 2nd pressing - 300 clear w/ yellow splatter</li>
+                </ul>
                 <h5>Links</h5>
                 <ul>
                   <li>
@@ -143,12 +143,10 @@ class Music extends React.Component {
               <div className="col-12">
                 <h4>Daytime/Nighttime</h4>
                 <p>Released 2018 - Specialist Subject Records</p>
-                <p>
-                  Pressing info: 7” Vinyl, Digital
-                  <ul>
-                    <li>Vinyl 1st pressing 300 mixed colour</li>
-                  </ul>
-                </p>
+                <p>Pressing info: 7” Vinyl, Digital</p>
+                <ul>
+                  <li>Vinyl 1st pressing 300 mixed colour</li>
+                </ul>
                 <h5>Links</h5>
                 <ul>
                   <li>

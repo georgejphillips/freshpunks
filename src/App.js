@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+} from 'react-router-dom';
 import Logo from './components/Logo';
 import Home from './components/Home';
 import Music from './components/Music';
@@ -14,90 +19,141 @@ import Footer from './components/Footer';
 import '../src/sass/styles.scss';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false,
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+    this.handleNavClick = this.handleNavClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState((state) => ({
+      menuOpen: !state.menuOpen,
+    }));
+  }
+
+  handleNavClick() {
+    this.setState(() => ({
+      menuOpen: false,
+    }));
+  }
+
   render() {
     return (
-      <Router>
-        <div className="fresh-site">
-          <header className="fresh-header">
-            <div className="container">
-              <div className="row justify-content-center justify-content-md-between align-items-center">
-                <div className="col-auto">
-                  <Link to="/">
-                    <h1>
-                      <Logo />
-                    </h1>
-                  </Link>
-                </div>
-                <div className="col-auto">
-                  <nav className="fresh-nav">
-                    <ul>
-                      <li>
-                        <Link to="/music">Music</Link>
-                      </li>
-                      <li>
-                        <Link to="/video">Video</Link>
-                      </li>
-                      <li>
-                        <Link to="/news">News</Link>
-                      </li>
-                      <li>
-                        <Link to="/about">About</Link>
-                      </li>
-                      <li>
-                        <Link to="/tour">Tour</Link>
-                      </li>
-                      <li>
-                        <Link to="/press">EPK</Link>
-                      </li>
-                      <li>
-                        <Link to="/podcast">Podcast</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">Contact</Link>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
+      <div className="fresh-site">
+        <header className="fresh-header">
+          <div className="container">
+            <div className="row justify-content-between align-items-center">
+              <div className="col-auto">
+                <NavLink to="/">
+                  <h1>
+                    <Logo />
+                  </h1>
+                </NavLink>
+              </div>
+              <div className="col-auto">
+                <span
+                  aria-label="Menu"
+                  className={`fresh-menu-button${
+                    this.state.menuOpen ? ' fresh-menu-button--is-open' : ''
+                  }`}
+                  onClick={this.handleClick}
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+                <nav
+                  className={`fresh-nav${
+                    this.state.menuOpen ? ' fresh-nav--is-open' : ''
+                  }`}
+                >
+                  <ul>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/music">
+                        Music
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/video">
+                        Video
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/news">
+                        News
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/about">
+                        About
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/tour">
+                        Tour
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/press">
+                        EPK
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/podcast">
+                        Podcast
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={this.handleNavClick} to="/contact">
+                        Contact
+                      </NavLink>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
-          </header>
-          <main>
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route path="/music">
-                <Music />
-              </Route>
-              <Route path="/video">
-                <Video />
-              </Route>
-              <Route path="/news">
-                <News />
-              </Route>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/tour">
-                <Tour />
-              </Route>
-              <Route path="/press">
-                <Press />
-              </Route>
-              <Route path="/podcast">
-                <Podcast />
-              </Route>
-              <Route path="/contact">
-                <Contact />
-              </Route>
-              <Route path="*">
-                <Error />
-              </Route>
-            </Switch>
-          </main>
-          <Footer></Footer>
-        </div>
-      </Router>
+          </div>
+        </header>
+        <main>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/music">
+              <Music />
+            </Route>
+            <Route path="/video">
+              <Video />
+            </Route>
+            <Route path="/news">
+              <News />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/tour">
+              <Tour />
+            </Route>
+            <Route path="/press">
+              <Press />
+            </Route>
+            <Route path="/podcast">
+              <Podcast />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="*">
+              <Error />
+            </Route>
+          </Switch>
+        </main>
+        <Footer></Footer>
+      </div>
     );
   }
 }
