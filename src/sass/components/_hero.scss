@@ -5,6 +5,20 @@
   display: flex;
   position: relative;
   color: $colour-white;
+  $self: &;
+
+  &__credit {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: $colour-white;
+    font-size: 12px;
+
+    #{$self}--homepage & {
+      bottom: 60px;
+    }
+  }
 
   &--homepage {
     height: 100vh;

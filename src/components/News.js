@@ -1,43 +1,46 @@
 import React from 'react';
+import axios from 'axios';
 
+import Post from '../components/Post';
 import heroImage from '../assets/img/heros/news.jpg';
 
 class News extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      news: [],
+      isLoaded: false,
+    };
+  }
+
+  componentDidMount() {
+    axios.get('//freshpunks.com/cms/wp-json/wp/v2/posts').then(res => this.setState({
+      news: res.data,
+      isLoaded: true,
+    })).catch(err => console.log(err));
+  }
+
   render() {
     return (
       <div>
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>News</h2>
+          <span className="fresh-hero__credit"></span>
         </div>
-        <div className="fresh-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8">
-                <h3>Girl Clout released!</h3>
-                <p className="meta">
-                  By Fresh <time>28/03/21</time>
-                </p>
-                <p>We've put out a new song called Girl Clout and you can find it wherever you find your music!</p>
-                <p>Stay tuned for more...</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="fresh-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8">
-                <h3>Podcast released!</h3>
-                <p className="meta">
-                  By Fresh <time>28/03/21</time>
-                </p>
-                <p>We got bored and decided to make a podcast. Check it out over on the <a href="/podcast">podcast page</a>!</p>
-                <p>Stay tuned for more...</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        {this.state.isLoaded
+          ? this.state.news.map((post) => {
+
+              return (
+                <Post
+                  key={post.id}
+                  title={post.title.rendered}
+                  date={post.date}
+                  content={post.content.rendered}
+                />
+              );
+            })
+          : 'loading'}
       </div>
     );
   }

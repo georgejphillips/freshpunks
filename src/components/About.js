@@ -9,6 +9,7 @@ class About extends React.Component {
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>About</h2>
+          <span className="fresh-hero__credit">Photo by Chiara Gambuto</span>
         </div>
         <div className="fresh-section">
           <div className="container">

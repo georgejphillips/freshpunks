@@ -1,6 +1,6 @@
 import React from 'react';
 
-import heroImage from '../assets/img/heros/podcast.png';
+import heroImage from '../assets/img/heros/podcast.jpg';
 
 class Podcast extends React.Component {
   render() {
@@ -9,6 +9,7 @@ class Podcast extends React.Component {
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>Podcast</h2>
+          <span className="fresh-hero__credit">Photo by Dylan Friese-Greene</span>
         </div>
         <div className="fresh-section">
           <div className="container">

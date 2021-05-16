@@ -8,6 +8,7 @@ class Contact extends React.Component {
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>Contact</h2>
+          <span className="fresh-hero__credit">Photo by @gingerdope</span>
         </div>
         <div className="fresh-section">
           <div className="container">

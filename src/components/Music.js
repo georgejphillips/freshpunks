@@ -14,6 +14,7 @@ class Music extends React.Component {
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>Music</h2>
+          <span className="fresh-hero__credit">Photo by @gingerdope</span>
         </div>
         <div className="fresh-section">
           <div className="container">
@@ -133,6 +134,49 @@ class Music extends React.Component {
             <div className="row">
               <div className="col-12">
                 <h3>Singles & EPs</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fresh-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h4>The Summer I Got Good at Guitar</h4>
+                <p>Released 2021 - Specialist Subject Records</p>
+                <p>Pressing info: 12” Vinyl, Digital</p>
+                <ul>
+                  <li>Vinyl 1st pressing 200 orange, 300 purple</li>
+                </ul>
+                <h5>Links</h5>
+                <ul>
+                  <li>
+                    <a href="https://open.spotify.com/album/3YzOwYVQsyO3lzDreKczeT?si=zdIYrz08TSubee-Q0u1gcA">
+                      Spotify
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/album/the-summer-i-got-good-at-guitar"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <img src={gc} width="100%" alt="Summer I Got Good At Guitar EP artwork" />
+              </div>
+              <div className="col-md-6">
+                <ol>
+                  <li>The Summer I Got Good at Guitar</li>
+                  <li>Over There</li>
+                  <li>Girl Clout</li>
+                  <li>My Redemption Arc</li>
+                  <li>Cry for Help</li>
+                </ol>
               </div>
             </div>
           </div>

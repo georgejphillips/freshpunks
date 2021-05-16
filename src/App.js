@@ -98,11 +98,6 @@ class App extends React.Component {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink onClick={this.handleNavClick} to="/press">
-                        EPK
-                      </NavLink>
-                    </li>
-                    <li>
                       <NavLink onClick={this.handleNavClick} to="/podcast">
                         Podcast
                       </NavLink>
