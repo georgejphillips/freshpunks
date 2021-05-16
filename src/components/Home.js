@@ -6,7 +6,7 @@ class Home extends React.Component {
     return (
       <div className="fresh-hero fresh-hero--homepage">
         <img src={heroImage} alt="" />
-        <span className="fresh-hero__credit">Bands of Film</span>
+        <span className="fresh-hero__credit">Photo by Bands on Film</span>
       </div>
     );
   }

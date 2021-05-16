@@ -15,6 +15,7 @@ import About from './components/About';
 import Tour from './components/Tour';
 import Press from './components/Press';
 import Contact from './components/Contact';
+import NotFound from './components/Error';
 import Footer from './components/Footer';
 import '../src/sass/styles.scss';
 
@@ -143,7 +144,7 @@ class App extends React.Component {
               <Contact />
             </Route>
             <Route path="*">
-              <Error />
+              <NotFound />
             </Route>
           </Switch>
         </main>

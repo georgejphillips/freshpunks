@@ -6,6 +6,7 @@ import st from '../assets/img/music/st.jpg';
 import daytime from '../assets/img/music/daytime.jpg';
 import thantf from '../assets/img/music/thantf.jpg';
 import gc from '../assets/img/music/gc.jpg';
+import summer from '../assets/img/music/summer.jpg';
 
 class Music extends React.Component {
   render() {
@@ -167,7 +168,7 @@ class Music extends React.Component {
                 </ul>
               </div>
               <div className="col-md-4">
-                <img src={gc} width="100%" alt="Summer I Got Good At Guitar EP artwork" />
+                <img src={summer} width="100%" alt="Summer I Got Good At Guitar EP artwork" />
               </div>
               <div className="col-md-6">
                 <ol>

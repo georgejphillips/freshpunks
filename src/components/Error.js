@@ -2,7 +2,7 @@ import React from 'react';
 
 import heroImage from '../assets/img/heros/error.jpg';
 
-class Error extends React.Component {
+class NotFound extends React.Component {
   render() {
     return (
       <div>
@@ -12,11 +12,17 @@ class Error extends React.Component {
           <span className="fresh-hero__credit">Photo by @gingerdope</span>
         </div>
         <div className="fresh-section">
-          <p><a href="/">Go home</a></p>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <p><a href="/">Go home</a></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
   }
 }
 
-export default Error;
+export default NotFound;
