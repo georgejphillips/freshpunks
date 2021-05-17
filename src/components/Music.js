@@ -145,7 +145,7 @@ class Music extends React.Component {
               <div className="col-12">
                 <h4>The Summer I Got Good at Guitar</h4>
                 <p>Released 2021 - Specialist Subject Records</p>
-                <p>Pressing info: 12” Vinyl, Digital</p>
+                <p>Pressing info: 12" Vinyl, Digital</p>
                 <ul>
                   <li>Vinyl 1st pressing 200 orange, 300 purple</li>
                 </ul>
@@ -188,7 +188,7 @@ class Music extends React.Component {
               <div className="col-12">
                 <h4>Daytime/Nighttime</h4>
                 <p>Released 2018 - Specialist Subject Records</p>
-                <p>Pressing info: 7” Vinyl, Digital</p>
+                <p>Pressing info: 7" Vinyl, Digital</p>
                 <ul>
                   <li>Vinyl 1st pressing 300 mixed colour</li>
                 </ul>

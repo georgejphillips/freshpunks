@@ -16,7 +16,7 @@ class Footer extends React.Component {
     return (
       <footer className="fresh-footer">
         <div className="container">
-          <div className="row justify-content-around">
+          <div className="row justify-content-between">
             <div className="col-12 col-md-auto">
               <p>
                 ©{getYear()} Fresh |
