@@ -1,13 +1,10 @@
 .fresh-music {
-  .fresh-section img {
+  .fresh-section {
+    &--alt {
+      background-color: rgba($colour-blue, .2);
+    }
+    img {
     margin-bottom: 1.5rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .fresh-music {
-    .fresh-section img {
-      margin-bottom: 0;
     }
   }
 }

@@ -10,6 +10,7 @@ class Press extends React.Component {
         <div className="fresh-hero">
           <img src={heroImage} alt="" />
           <h2>Video</h2>
+          <span>Photo by Bands on Film</span>
         </div>
         <div className="fresh-section">
           <div className="container">

@@ -80,7 +80,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section">
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -182,7 +182,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section">
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -258,7 +258,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section">
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
