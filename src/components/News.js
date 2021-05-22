@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
-import Post from '../components/Post';
+import Post from './Post';
+import Loading from './Loading'
 import heroImage from '../assets/img/heros/news.jpg';
 
 class News extends React.Component {
@@ -40,7 +41,7 @@ class News extends React.Component {
                 />
               );
             })
-          : 'loading'}
+          : (<div className="container"><div className="row"><div className="col-12"><Loading/></div></div></div>)}
       </div>
     );
   }

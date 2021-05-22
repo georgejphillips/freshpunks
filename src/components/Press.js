@@ -20,7 +20,7 @@ class Press extends React.Component {
               <div className="col-md-6">
                 <h3>Short bio</h3>
                 <p>
-                  London DIY punks <strong>FRESH</strong> have worked tirelessly since their
+                  London DIY punks <strong>Fresh</strong> have worked tirelessly since their
                   inception - touring with the likes of The Beths, PUP, Adult
                   Mom and more, releasing two albums and amassing a devoted
                   fanbase following appearances at Fest, Manchester Punk
@@ -28,21 +28,21 @@ class Press extends React.Component {
                   that have existed for a relatively short period of time, the
                   four-piece have already released a hefty catalogue of work - {' '}
                   prolific, ever evolving and always fresh (in every sense of
-                  the word). <strong>FRESH</strong> have now announced a five track EP to be
+                  the word). <strong>Fresh</strong> have now announced a five track EP to be
                   released on April 30th via Specialist Subject Records. The UK
                   punk scene continues to suffer at the hands of Covid-19 and
                   following a year of no live shows, 'The Summer I Got Good at
                   Guitar' is here to remind us not only of what we're missing
-                  but of what we've got to look forward to when <strong>FRESH</strong> can
+                  but of what we've got to look forward to when <strong>Fresh</strong> can
                   finally tour again.
                 </p>
                 <p>
-                <strong>FRESH</strong> have been an unwavering fixture within the UK punk scene
+                <strong>Fresh</strong> have been an unwavering fixture within the UK punk scene
                   since their first record in 2017. A joy to behold live, the
                   band includes musical peer Myles McCabe of ME REX, while lead
                   singer Kathryn Woods is a member of a number of heralded indie
                   and punk bands, including cheerbleederz and ME REX alongside
-                  McCabe. With future plans to tour alongside a new album, <strong>FRESH</strong>{ ' ' }
+                  McCabe. With future plans to tour alongside a new album, <strong>Fresh</strong>{ ' ' }
                   show no signs of slowing down anytime soon.
                 </p>
               </div>

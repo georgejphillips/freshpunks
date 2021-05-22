@@ -17,7 +17,7 @@ class Podcast extends React.Component {
               <div className="col-md-8">
                 <h3>This Podcast Is Not That Fun</h3>
                 <p>
-                  During lockdown FRESH started a podcast talking about their songs and their weeks. They even started a record club. Listen here:
+                  During lockdown Fresh started a podcast talking about their songs and their weeks. They even started a record club. Listen here:
                 </p>
                 <ul>
                   <li><a href="https://anchor.fm/freshpunks">Anchor</a></li>
