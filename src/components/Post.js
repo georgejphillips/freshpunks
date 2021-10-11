@@ -15,7 +15,7 @@ class Post extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-md-8">
-            <h3>{this.props.title}</h3>
+            <h3 dangerouslySetInnerHTML={{ __html: this.props.title }}/>
             <p className="meta">
               By Fresh <time>{this.formatDate(this.props.date)}</time>
             </p>

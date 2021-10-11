@@ -7,8 +7,3 @@
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
 </IfModule>
-
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /home/georg320/freshpunks.com/.htpasswd
-require valid-user
