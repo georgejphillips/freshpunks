@@ -99,6 +99,9 @@ class App extends React.Component {
                       </NavLink>
                     </li>
                     <li>
+                      <a href="https://freshpunks.bandcamp.com/merch">Merch</a>
+                    </li>
+                    <li>
                       <NavLink onClick={this.handleNavClick} to="/podcast">
                         Podcast
                       </NavLink>
