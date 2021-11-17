@@ -17,10 +17,20 @@ class Tour extends React.Component {
               <h3>Upcoming Dates</h3>
               <ul>
                 <li>
-                  <h4>2021</h4>
+                  <h4>2022</h4>
                   <ul>
-                    <li>19/06/21 - Bigfoot Festival</li>
-                    <li>10/07/21 - 2000 Trees Festival</li>
+                    <li>07/01/2022 - Colours, London</li>
+                    <li>08/01/2022 - Gullivers, Manchester</li>
+                    <li>09/01/2022 - Exchange - Bristol</li>
+                    <li>11/04/2022 - Whelan's - Dublin w/ Jeff Rosenstock</li>
+                    <li>14/04/2022 - Belgrave Music Centre - Leeds w/ Jeff Rosenstock</li>
+                    <li>15/04/2022 - Slay - Glasgow w/ Jeff Rosenstock</li>
+                    <li>16/04/2022 - Star and Shadow - Newcastle w/ Jeff Rosenstock</li>
+                    <li>17/04/2022 - Manchester Punk Festival - Manchester</li>
+                    <li>18/04/2022 - Rescue Rooms - Nottingham - w/ Jeff Rosenstock</li>
+                    <li>19/04/2022 - Electric Ballroom - London - w/ Jeff Rosenstock</li>
+                    <l1>20/04/2022 - Fleece - Bristol - w/ Jeff Rosenstock</l1>
+                    <li>21/04/2022 - Joiners - Southampton - w / Jeff Rosenstock</li>
                   </ul>
                 </li>
               </ul>
@@ -32,9 +42,16 @@ class Tour extends React.Component {
                 <h3>Past Dates</h3>
                 <ul>
                   <li>
+                    <h4>2021</h4>
+                    <ul>
+                      <li>19/06/21 - Bigfoot Festival</li>
+                      <li>10/07/21 - 2000 Trees Festival</li>
+                    </ul>
+                  </li>
+                  <li>
                     <h4>2020</h4>
                     <ul>
-                      <li>06/02/20 - DIY Space</li>
+                      <li>06/02/20 - DIY Space, London</li>
                     </ul>
                   </li>
                   <li>
@@ -94,18 +111,24 @@ class Tour extends React.Component {
                         24/10/19 - Boston Music Room, London w/ Oso Oso/Prince
                         Daddy
                       </li>
-                      <li>28/10/19 - Foreign Dissent, Wills Pub, Orlando, US</li>
+                      <li>
+                        28/10/19 - Foreign Dissent, Wills Pub, Orlando, US
+                      </li>
                       <li>31/10/19 - Candied Fest, Jacksonville, US</li>
                       <li>03/11/19 - Fest, Looseys, Gainesville, US</li>
                       <li>
-                        04/11/19 - New Brookland Tavern, Columbia SC, US w/ Adult
-                        Mom
+                        04/11/19 - New Brookland Tavern, Columbia SC, US w/
+                        Adult Mom
                       </li>
                       <li>
                         05/11/19 - Duke Coffeehouse, Raleigh NC, US w/ Adult Mom
                       </li>
-                      <li>06/11/19 - Songbyrd, Washington DC, US w/ Adult Mom</li>
-                      <li>07/11/19 - BSP Kingston, Kingston NY, US w/ Adult Mom</li>
+                      <li>
+                        06/11/19 - Songbyrd, Washington DC, US w/ Adult Mom
+                      </li>
+                      <li>
+                        07/11/19 - BSP Kingston, Kingston NY, US w/ Adult Mom
+                      </li>
 
                       <li>21/11/19 - Electric Ballroom, London w/ Pup</li>
                       <li>22/11/19 - Bristol, SWX w/ Pup</li>
