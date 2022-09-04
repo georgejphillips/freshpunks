@@ -1,0 +1,36 @@
+// Colours
+$colour-darkest: #262626;
+$colour-white: #ffffff;
+$colour-blue: #A5C3CF;
+$colour-dark-blue: #2B254C;
+
+// Dimensions
+$spacing: 1rem;
+$footer-height: 3rem;
+
+// Layers
+$header-z-index: 100;
+$nav-z-index: 101;
+$menu-button-z-index: 102;
+$hero-z-index: 20;
+
+// Fonts
+$font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font colour
+$font-colour: $colour-white;
+
+// Font weights
+$font-weight: 300;
+$font-weight-bold: 500;
+
+// Font size
+$font-size: 16px;
+$font-size-xs: 0.750rem; // 12px
+$font-size-sm: 0.875rem; // 14px;
+$font-size-md: 1.500rem; // 24px;
+$font-size-lg: 2.250rem; // 36px;
+$font-size-xl: 3.000rem; // 48px;
+
+// Line height
+$line-height: 1.2;
