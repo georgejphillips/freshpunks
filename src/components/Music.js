@@ -1,6 +1,7 @@
 import React from 'react';
 
 import heroImage from '../assets/img/heros/music.jpg';
+import raiseHell from '../assets/img/music/raisehell.jpg';
 import withdraw from '../assets/img/music/withdraw.jpg';
 import st from '../assets/img/music/st.jpg';
 import daytime from '../assets/img/music/daytime.jpg';
@@ -27,6 +28,59 @@ class Music extends React.Component {
           </div>
         </div>
         <div className="fresh-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h4>Raise Hell</h4>
+                <p>Released 2022 - Specialist Subject Records</p>
+                <p>Pressing info: Vinyl, CD, Digital, Cassette</p>
+                <ul>
+                  <li>Vinyl 1st pressing - 1000 blue, 500 lilac</li>
+                </ul>
+                <h5>Links</h5>
+                <ul>
+                  <li>
+                    <a href="https://open.spotify.com/album/5dZx54Vr07hlnq5gaTCCqk?si=YoYK7UL9Q9ujN0b-ZFbczQ">
+                      Spotify
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://freshpunks.bandcamp.com/album/raise-hell"
+                      target="_blank"
+                      rel="nofollow"
+                    >
+                      Bandcamp
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <img
+                  src={raiseHell}
+                  width="100%"
+                  alt="Raise Hell album artwork"
+                />
+              </div>
+              <div className="col-md-6">
+                <ol>
+                  <li>Our Love</li>
+                  <li>Morgan & Joanne</li>
+                  <li>Babyface</li>
+                  <li>Going to Bed</li>
+                  <li>Sleepover</li>
+                  <li>Fuck Up</li>
+                  <li>Deer in the Headlights</li>
+                  <li>Pls Don't Cry</li>
+                  <li>We All Know (Blondie)</li>
+                  <li>I Know I'm Just a Phase to You</li>
+                  <li>Why Do I</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -80,7 +134,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section fresh-section--alt">
+        <div className="fresh-section">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -130,7 +184,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section">
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -139,7 +193,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section">
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -168,7 +222,11 @@ class Music extends React.Component {
                 </ul>
               </div>
               <div className="col-md-4">
-                <img src={summer} width="100%" alt="Summer I Got Good At Guitar EP artwork" />
+                <img
+                  src={summer}
+                  width="100%"
+                  alt="Summer I Got Good At Guitar EP artwork"
+                />
               </div>
               <div className="col-md-6">
                 <ol>
@@ -182,7 +240,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section fresh-section--alt">
+        <div className="fresh-section">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -222,7 +280,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section">
+        <div className="fresh-section fresh-section--alt">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -258,7 +316,7 @@ class Music extends React.Component {
             </div>
           </div>
         </div>
-        <div className="fresh-section fresh-section--alt">
+        <div className="fresh-section">
           <div className="container">
             <div className="row">
               <div className="col-12">

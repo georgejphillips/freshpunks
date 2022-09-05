@@ -19,18 +19,9 @@ class Tour extends React.Component {
                 <li>
                   <h4>2022</h4>
                   <ul>
-                    <li>07/01/2022 - Colours, London</li>
-                    <li>08/01/2022 - Gullivers, Manchester</li>
-                    <li>09/01/2022 - Exchange - Bristol</li>
-                    <li>11/04/2022 - Whelan's - Dublin w/ Jeff Rosenstock</li>
-                    <li>14/04/2022 - Belgrave Music Centre - Leeds w/ Jeff Rosenstock</li>
-                    <li>15/04/2022 - Slay - Glasgow w/ Jeff Rosenstock</li>
-                    <li>16/04/2022 - Star and Shadow - Newcastle w/ Jeff Rosenstock</li>
-                    <li>17/04/2022 - Manchester Punk Festival - Manchester</li>
-                    <li>18/04/2022 - Rescue Rooms - Nottingham - w/ Jeff Rosenstock</li>
-                    <li>19/04/2022 - Electric Ballroom - London - w/ Jeff Rosenstock</li>
-                    <l1>20/04/2022 - Fleece - Bristol - w/ Jeff Rosenstock</l1>
-                    <li>21/04/2022 - Joiners - Southampton - w / Jeff Rosenstock</li>
+                    <li>
+                      15/10/2022 - Til The Wheels Fest - Amersham Arms, London
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -41,6 +32,48 @@ class Tour extends React.Component {
               <div className="col-12">
                 <h3>Past Dates</h3>
                 <ul>
+                  <li>
+                    <h4>2022</h4>
+                    <ul>
+                      <li>07/01/2022 - Colours, London</li>
+                      <li>08/01/2022 - Gullivers, Manchester</li>
+                      <li>09/01/2022 - Exchange - Bristol</li>
+                      <li>11/04/2022 - Whelan's - Dublin w/ Jeff Rosenstock</li>
+                      <li>
+                        14/04/2022 - Belgrave Music Centre - Leeds w/ Jeff
+                        Rosenstock
+                      </li>
+                      <li>15/04/2022 - Slay - Glasgow w/ Jeff Rosenstock</li>
+                      <li>
+                        16/04/2022 - Star and Shadow - Newcastle w/ Jeff
+                        Rosenstock
+                      </li>
+                      <li>
+                        17/04/2022 - Manchester Punk Festival - Manchester
+                      </li>
+                      <li>
+                        18/04/2022 - Rescue Rooms - Nottingham - w/ Jeff
+                        Rosenstock
+                      </li>
+                      <li>
+                        19/04/2022 - Electric Ballroom - London - w/ Jeff
+                        Rosenstock
+                      </li>
+                      <l1>
+                        20/04/2022 - Fleece - Bristol - w/ Jeff Rosenstock
+                      </l1>
+                      <li>
+                        21/04/2022 - Joiners - Southampton - w / Jeff Rosenstock
+                      </li>
+                      <li>08/07/2022 - 2000 Trees Festival</li>
+                      <li>22/08/2022 - Bodega - Nottingham</li>
+                      <li>23/08/2022 - Gullivers - Manchester</li>
+                      <li>24/08/2022 - Nice N Sleazy - Glasgow</li>
+                      <li>25/08/2022 - Pop Recs - Sunderland</li>
+                      <li>26/08/2022 - Exchange - Bristol</li>
+                      <li>27/08/2022 - Oslo - London</li>
+                    </ul>
+                  </li>
                   <li>
                     <h4>2021</h4>
                     <ul>

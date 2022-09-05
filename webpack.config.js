@@ -38,9 +38,9 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx'],
     fallback: {
-      "path": require.resolve("path-browserify"),
-      "crypto": false
-    }
+      path: require.resolve('path-browserify'),
+      crypto: false,
+    },
   },
   optimization: {
     splitChunks: {
@@ -49,16 +49,16 @@ module.exports = {
           name: 'styles',
           test: /\.css$/,
           chunks: 'all',
-          enforce: true
+          enforce: true,
         },
         vendor: {
           chunks: 'initial',
           test: 'vendor',
           name: 'vendor',
-          enforce: true
-        }
-      }
-    }
+          enforce: true,
+        },
+      },
+    },
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -68,14 +68,16 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new EncodingPlugin({
-      encoding: 'iso-8859-1'
+      encoding: 'iso-8859-1',
     }),
     new HtmlWebpackPlugin({
       template: 'public/index.html',
     }),
   ],
   devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
     hot: true,
   },
 };

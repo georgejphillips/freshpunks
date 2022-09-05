@@ -16,6 +16,12 @@ class Press extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-12">
+                <h3>Why Do I</h3>
+                <YoutubeEmbed embedId="NRWUeKRkdxI" />
+                <h3>Revenge - Live at Manchester Punk Festival</h3>
+                <YoutubeEmbed embedId="xHPqmMkUc2A" />
+                <h3>Fresh - Comes Alive!</h3>
+                <YoutubeEmbed embedId="EFE3ed9FXMs" />
                 <h3>Going to Brighton</h3>
                 <YoutubeEmbed embedId="KZ2bSRcf8p8" />
                 <h3>Daytime</h3>
